@@ -1,0 +1,100 @@
+name: adhan_app
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  google_fonts: 1.1.1
+  geolocator: ^5.3.1
+  sqflite: any
+  path_provider: any
+  http: ^0.12.1
+  fluttertoast: ^7.1.1
+  flutter_compass: ^0.4.3
+  permission_handler: ^4.4.0+hotfix.2
+  connectivity: ^0.4.8+2
+  shared_preferences: any
+  app_settings: 4.0.4
+  splashscreen: ^1.3.3
+  flutter_countdown_timer: ^1.4.0
+  blurrycontainer: ^0.0.1
+  provider: ^4.1.2
+
+  # Notification
+  flutter_local_notifications: ^4.0.1+2
+  rxdart: ^0.24.1
+
+  # audio
+  audioplayers: ^0.17.3
+
+  # Date formatter
+  intl: ^0.16.1
+
+  # Hijri Date
+  hijri: ^2.0.3
+
+  # icons generator
+  flutter_launcher_icons: null
+
+
+
+  workmanager: ^0.2.0
+
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
